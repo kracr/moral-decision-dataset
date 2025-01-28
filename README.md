@@ -5,19 +5,33 @@ This repository contains code files and documentation pertaining to the Moral De
 
 #Table of Contents:
 1. [Introduction](#intro)
+   
 2. [Methodology](#method)
+
 3. [Dataset Description - MDD](#desc)
+
    3.1 [Dataset Features](#features)
+
    3.2 [Moral Decision - Y](#moraldecision)
-4. [Ethics Scoring Algorithm - ESA](#esa)
+
+5. [Ethics Scoring Algorithm - ESA](#esa)
+
    4.1 [Modules](#mods)
+
    4.2 [Moral Judgement](#mj)
+
    4.3 [Context-Sensitive Thresholding](#cst)
+
 6. [Resource Specifications](#stats)
+
 7. [Repository Details](deets)  
+
 8. [Setting Up](#setup)
+
 9. [Tutorial](#tut)
+
 10. [_A Cautionary Tale!_](#beware)
+
 11. [Resource Maintenance](#maintenance)
 
 <a name="intro"></a>
