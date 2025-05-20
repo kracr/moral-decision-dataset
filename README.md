@@ -1,7 +1,7 @@
 # moral-decision-dataset
 
 ## Overview
-This repository contains code files and documentation pertaining to the Moral Decision Dataset (MDD). The MDD describes real-world cases, associated parameters, and case-based moral decisions. To enhance the usability of this resource, this overview provides additional information on how the dataset was created and a tutorial to set up and reproduce our results. For more detail on the resource, please see our published paper.
+This repository contains code files and documentation pertaining to the Moral Decision Dataset (MDD). The MDD describes real-world cases, associated parameters, and case-based moral decisions. To enhance the usability of this resource, this overview provides additional information on how the dataset was created and a tutorial to set up and reproduce our results. For more detail on the resource, please see our [published paper](https://github.com/kracr/moral-decision-dataset/blob/dd22c8b9bb3086bb7ae47f9bb0ce3eca13ff749d/Published%20Paper_IJCAI%202025/IJCAI_2025.pdf).
 
 # Table of Contents:
 1. [Introduction](#intro)
