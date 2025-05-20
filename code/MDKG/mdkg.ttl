@@ -1,0 +1,203 @@
+@prefix ex: <http://www.example.org/mddkg#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ex:Case_1 a ex:EthicalCase ;
+    ex:action "Refused to share login." ;
+    ex:activeAgent "Person" ;
+    ex:consequence "Strained relationship with mother." ;
+    ex:domain "Legal Ethics" ;
+    ex:duration "Long-term autonomy." ;
+    ex:durationScore "0.5"^^xsd:float ;
+    ex:ethicalPrinciples "Privacy upheld, autonomy upheld, emotional manipulation violated." ;
+    ex:ethicalPrinciplesScore "0.3"^^xsd:float ;
+    ex:llmReason "Protecting one's financial privacy and independence is ethically justified, especially given prior boundary violations." ;
+    ex:moralDecision "Morally right" ;
+    ex:moralIntention "Protecting privacy and independence." ;
+    ex:moralIntentionScore "0.6"^^xsd:float ;
+    ex:passiveAgent "Mother" ;
+    ex:severity "Moderate positive impact" ;
+    ex:severityScore "-0.2"^^xsd:float ;
+    ex:summary "Person refuses to share tax login with controlling mother." ;
+    ex:utility "Maintained financial independence." ;
+    ex:utilityScore "0.4"^^xsd:float .
+
+ex:Case_10 a ex:EthicalCase ;
+    ex:action "Delivery failure" ;
+    ex:activeAgent "Flipkart" ;
+    ex:consequence "Wasted time, inconvenience, no product received" ;
+    ex:domain "Corporate Ethics" ;
+    ex:duration "Short-term but frustrating" ;
+    ex:durationScore "-0.4"^^xsd:float ;
+    ex:ethicalPrinciples "Accountability violated, financial competence violated" ;
+    ex:ethicalPrinciplesScore "-0.5"^^xsd:float ;
+    ex:llmReason " The company failed in its responsibility to deliver the paid-for product, wasting OP’s time." ;
+    ex:moralDecision "Morally wrong " ;
+    ex:moralIntention "Likely incompetence, not malice" ;
+    ex:moralIntentionScore "-0.2"^^xsd:float ;
+    ex:passiveAgent "OP" ;
+    ex:severity "Moderate negative impact" ;
+    ex:severityScore "-0.5"^^xsd:float ;
+    ex:summary "OP ordered a laptop from Flipkart, but repeated delivery failures caused frustration and wasted time." ;
+    ex:utility "No benefit to OP" ;
+    ex:utilityScore "-0.6"^^xsd:float .
+
+ex:Case_2 a ex:EthicalCase ;
+    ex:action "Offered emotional and temporary housing support." ;
+    ex:activeAgent "Person" ;
+    ex:consequence "Brother gets temporary shelter and support." ;
+    ex:domain "Family Ethics" ;
+    ex:duration "Short-term until stable." ;
+    ex:durationScore "0.3"^^xsd:float ;
+    ex:ethicalPrinciples "Compassion upheld, family duty upheld, fairness upheld." ;
+    ex:ethicalPrinciplesScore "0.7"^^xsd:float ;
+    ex:llmReason "Providing emotional and housing support to a vulnerable family member aligns with ethical duty and compassion." ;
+    ex:moralDecision "Morally right" ;
+    ex:moralIntention "Genuine care and support." ;
+    ex:moralIntentionScore "0.8"^^xsd:float ;
+    ex:passiveAgent "Brother" ;
+    ex:severity "Moderate positive impact" ;
+    ex:severityScore "0.5"^^xsd:float ;
+    ex:summary "Person provides temporary shelter and support to heartbroken brother." ;
+    ex:utility "Brother avoids immediate homelessness." ;
+    ex:utilityScore "0.6"^^xsd:float .
+
+ex:Case_3 a ex:EthicalCase ;
+    ex:action "Set boundaries, communicated needs, minimized external stressors." ;
+    ex:activeAgent "Person" ;
+    ex:consequence "Emotional distress, privacy violation, public exposure of miscarriage." ;
+    ex:domain "Bioethics" ;
+    ex:duration "Medium-term impact on trust and family dynamics." ;
+    ex:durationScore "0.5"^^xsd:float ;
+    ex:ethicalPrinciples "Privacy violated, autonomy disregarded, but self-care upheld." ;
+    ex:ethicalPrinciplesScore "0.6"^^xsd:float ;
+    ex:llmReason "Prioritizing mental and emotional well-being in a vulnerable time is ethically valid, even if it strains family relationships." ;
+    ex:moralDecision "Morally right" ;
+    ex:moralIntention "Self-protection, emotional well-being prioritization." ;
+    ex:moralIntentionScore "0.8"^^xsd:float ;
+    ex:passiveAgent "Mother" ;
+    ex:severity "High positive impact" ;
+    ex:severityScore "0.3"^^xsd:float ;
+    ex:summary "Person sets firm boundaries with their mother regarding pregnancy" ;
+    ex:utility "Minimized emotional burden by restricting who knew and who was involved." ;
+    ex:utilityScore "0.6"^^xsd:float .
+
+ex:Case_4 a ex:EthicalCase ;
+    ex:action "Canceled trip, offered to cover non-refundable costs." ;
+    ex:activeAgent "Person" ;
+    ex:consequence "Emotional fallout, financial loss, ghosting by travel companion." ;
+    ex:domain "Medical Ethics" ;
+    ex:duration "Medium-term disappointment but avoids prolonged stress." ;
+    ex:durationScore "0.5"^^xsd:float ;
+    ex:ethicalPrinciples "Autonomy upheld, but communication breakdown led to emotional strain." ;
+    ex:ethicalPrinciplesScore "0.5"^^xsd:float ;
+    ex:llmReason "Respecting one's own boundaries and well-being, even at the cost of a strained relationship, is reasonable." ;
+    ex:moralDecision "Morally right" ;
+    ex:moralIntention "Self-care, respect for personal boundaries, prioritization of travel enjoyment." ;
+    ex:moralIntentionScore "0.8"^^xsd:float ;
+    ex:passiveAgent "Travel Companion" ;
+    ex:severity "Low positive impact" ;
+    ex:severityScore "0.4"^^xsd:float ;
+    ex:summary "Person cancels a long-planned vacation to Greece due to significant differences in COVID precautions with their travel companion." ;
+    ex:utility "Avoided an uncomfortable and stressful vacation, preserved personal autonomy." ;
+    ex:utilityScore "0.7"^^xsd:float .
+
+ex:Case_5 a ex:EthicalCase ;
+    ex:action "Hired a different realtor for efficiency, explained the decision, and partner apologized for an unintentional oversight." ;
+    ex:activeAgent "Couple" ;
+    ex:consequence "Hurt feelings, tension in friendship, repeated unsolicited advice." ;
+    ex:domain "Business Ethics" ;
+    ex:duration "Short-term strain, but friendship could recover or naturally drift apart." ;
+    ex:durationScore "0.5"^^xsd:float ;
+    ex:ethicalPrinciples "Autonomy upheld, but friendship loyalty mildly strained due to perceived slight." ;
+    ex:ethicalPrinciplesScore "0.5"^^xsd:float ;
+    ex:llmReason "Prioritizing informed decision-making over obligation is reasonable, though handling the friend's emotions delicately may help maintain the relationship." ;
+    ex:moralDecision "Morally right" ;
+    ex:moralIntention "Prioritizing best interests in home purchase, open communication about decision." ;
+    ex:moralIntentionScore "0.8"^^xsd:float ;
+    ex:passiveAgent "Friend (Realtor)" ;
+    ex:severity "Low positive impact" ;
+    ex:severityScore "0.6"^^xsd:float ;
+    ex:summary "Couple unintentionally hires a different realtor than their friend leading to tension and passive-aggressive behavior from the friend." ;
+    ex:utility "Ensured a smoother home-buying process, avoided limiting options to friendship obligations." ;
+    ex:utilityScore "0.7"^^xsd:float .
+
+ex:Case_6 a ex:EthicalCase ;
+    ex:action "Online impersonation" ;
+    ex:activeAgent "Coworkers" ;
+    ex:consequence "Emotional distress, workplace discomfort, potential reputational harm" ;
+    ex:domain "Corporate Ethics" ;
+    ex:duration "Lasting unease and damage to workplace relationships" ;
+    ex:durationScore "-0.5"^^xsd:float ;
+    ex:ethicalPrinciples "Integrity violated, respect violated, accountability violated" ;
+    ex:ethicalPrinciplesScore "-0.8"^^xsd:float ;
+    ex:llmReason " It was a deliberate act of deception that caused harm and had potential long-term consequences for OP’s safety and reputation." ;
+    ex:moralDecision "Morally wrong " ;
+    ex:moralIntention "Malicious prank with disregard for consent" ;
+    ex:moralIntentionScore "-0.8"^^xsd:float ;
+    ex:passiveAgent "OP" ;
+    ex:severity "Moderate negative impact" ;
+    ex:severityScore "-0.6"^^xsd:float ;
+    ex:summary "Coworkers impersonated OP on Grindr as a prank, leading to a stranger confronting OP outside work." ;
+    ex:utility "Negative impact on OP’s mental state and workplace environment" ;
+    ex:utilityScore "-0.6"^^xsd:float .
+
+ex:Case_7 a ex:EthicalCase ;
+    ex:action "Payment withholding" ;
+    ex:activeAgent "Employer" ;
+    ex:consequence "Financial stress, breach of contract, lack of accountability" ;
+    ex:domain "Corporate Ethics" ;
+    ex:duration "Extended financial distress until resolved" ;
+    ex:durationScore "-0.6"^^xsd:float ;
+    ex:ethicalPrinciples "Integrity violated, accountability violated" ;
+    ex:ethicalPrinciplesScore "-0.9"^^xsd:float ;
+    ex:llmReason " The employer is withholding agreed compensation, violating trust and contractual obligations." ;
+    ex:moralDecision "Morally wrong " ;
+    ex:moralIntention "Likely intentional delay to avoid payment" ;
+    ex:moralIntentionScore "-0.8"^^xsd:float ;
+    ex:passiveAgent "OP" ;
+    ex:severity "High negative impact" ;
+    ex:severityScore "-0.7"^^xsd:float ;
+    ex:summary "Employer delayed severance payment despite an agreed-upon contract, causing financial uncertainty for OP." ;
+    ex:utility "Direct financial harm, delayed resolution" ;
+    ex:utilityScore "-0.7"^^xsd:float .
+
+ex:Case_8 a ex:EthicalCase ;
+    ex:action "Non-disclosure" ;
+    ex:activeAgent "Seller" ;
+    ex:consequence "Unexpected financial burden, property damage" ;
+    ex:domain "Corporate Ethics" ;
+    ex:duration "Long-term issue unless repaired" ;
+    ex:durationScore "-0.6"^^xsd:float ;
+    ex:ethicalPrinciples "Integrity violated, accountability violated" ;
+    ex:ethicalPrinciplesScore "-0.8"^^xsd:float ;
+    ex:llmReason " The seller likely withheld critical information to avoid affecting the sale, violating transparency and fairness." ;
+    ex:moralDecision "Morally wrong " ;
+    ex:moralIntention "Likely intentional omission to secure sale" ;
+    ex:moralIntentionScore "-0.7"^^xsd:float ;
+    ex:passiveAgent "OP" ;
+    ex:severity "Moderate negative impact" ;
+    ex:severityScore "-0.5"^^xsd:float ;
+    ex:summary "OP bought a flat and later discovered a leak that wasn’t disclosed by the seller, leading to unexpected repair costs." ;
+    ex:utility "Financial loss for OP" ;
+    ex:utilityScore "-0.5"^^xsd:float .
+
+ex:Case_9 a ex:EthicalCase ;
+    ex:action "Failure to identify" ;
+    ex:activeAgent "Police" ;
+    ex:consequence "Unnecessary emotional distress, potential trauma" ;
+    ex:domain "Legal Ethics" ;
+    ex:duration "Potential long-term anxiety" ;
+    ex:durationScore "-0.7"^^xsd:float ;
+    ex:ethicalPrinciples "Accountability violated, respect violated" ;
+    ex:ethicalPrinciplesScore "-0.6"^^xsd:float ;
+    ex:llmReason " The police failed in their duty to minimize harm and act professionally, causing significant distress." ;
+    ex:moralDecision "Morally wrong " ;
+    ex:moralIntention "Likely negligence rather than malice" ;
+    ex:moralIntentionScore "-0.3"^^xsd:float ;
+    ex:passiveAgent "OP" ;
+    ex:severity "High negative impact" ;
+    ex:severityScore "-0.7"^^xsd:float ;
+    ex:summary "Police banged on OP’s window at night without identifying themselves, causing severe emotional distress and fear." ;
+    ex:utility "No justifiable benefit to OP" ;
+    ex:utilityScore "-0.8"^^xsd:float .
+
