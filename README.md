@@ -10,11 +10,7 @@ This repository contains code files and documentation pertaining to the Moral De
 
 3. [Dataset Description - MDD](#desc)
 
-   3.1 [Dataset Features](#features)
-
-   3.2 [Moral Decision - Y](#moraldecision)
-
-5. [Ethics Scoring Algorithm - ESA](#esa)
+4. [Ethics Scoring Algorithm - ESA](#esa)
 
    4.1 [Modules](#mods)
 
@@ -22,17 +18,19 @@ This repository contains code files and documentation pertaining to the Moral De
 
    4.3 [Context-Sensitive Thresholding](#cst)
 
-6. [Resource Specifications](#stats)
+5. [Resource Specifications](#stats)
 
-7. [Repository Details](deets)  
+6. [Repository Details](deets)  
 
-8. [Setting Up](#setup)
+7. [Setting Up](#setup)
 
-9. [Tutorial](#tut)
+8. [Tutorial](#tut)
 
-10. [_A Cautionary Tale!_](#beware)
+9. [_A Cautionary Tale!_](#beware)
 
-11. [Resource Maintenance](#maintenance)
+10. [Resource Maintenance](#maintenance)
+
+---
 
 <a name="intro"></a>
 # Introduction
@@ -87,8 +85,20 @@ Data augmentation techniques were used to generate multiple instances of legal c
 6. Validation
 Results from Llama-3 were validated using Gemma LLM with additional feedback. This ensured accuracy and consistency.
 
+<a name="desc"></a>
+# Dataset Description - MDD
+
+By conforming to the normative definition of morality, we adopt the normative definition of ethics as well when embedding morality in AI. This involves <b>consequentialism, deontology, and virtue ethics<\b>. Each of these corresponds to certain real-world parameters: the characteristics of consequences, the moral intentions of the doer, and the ethical principles upheld and violated by the action. In collaboration with our team of ethicists, we have identified and verified these parameters that would, in addition to meta parameters such as action, agents, domain act as the key features.
+
+![alt text](https://github.com/kracr/moral-decision-dataset/blob/1ecfca4e1f6d8fc50b0f3c9987b7750d659e2a56/images/key%20features%20of%20the%20dataset%20mdd.png)
+
+<a name="esa"></a>
+# Ethics Scoring Algorithm
+
+The Ethics Scoring Algorithm (ESA) is a metric that allows one to discretize key features associated with a real-world scenario and determine through a weighted sum the ethics score of the active agent's action. It considers all three normative schools of thought - consequentialism, deontology, and virtue ethics. Based on the preference of the user and the applied ethics domain provided, we can <i>favor<\i> a particular school of thought over others.
+
 <a name="setup"></a>
-#Setup Instructions
+# Setup Instructions
 
 **Prerequisites**
 - Python 3.8+
@@ -125,16 +135,6 @@ python augmentation.py
 -Summaries: summary.csv
 -Evaluated Data: evaluated_data.json
 -Augmented Cases: augmented_cases.json
-
-<a name="desc"></a>
-# Dataset Description - MDD
-
-By conforming to the normative definition of morality, we adopt the normative definition of ethics as well when embedding morality in AI. This involves <b>consequentialism, deontology, and virtue ethics<\b>. Each of these corresponds to certain real-world parameters: the characteristics of consequences, the moral intentions of the doer, and the ethical principles upheld and violated by the action. In collaboration with our team of ethicists, we have identified and verified these parameters that would, in addition to meta parameters such as action, agents, domain act as the key features.
-
-![alt text](https://github.com/kracr/moral-decision-dataset/blob/1ecfca4e1f6d8fc50b0f3c9987b7750d659e2a56/images/key%20features%20of%20the%20dataset%20mdd.png)
-
-
-![alt text]([images/key features of the dataset mdd.png](https://github.com/kracr/moral-decision-dataset/blob/1ecfca4e1f6d8fc50b0f3c9987b7750d659e2a56/images/key%20features%20of%20the%20dataset%20mdd.png))
 
 
 
