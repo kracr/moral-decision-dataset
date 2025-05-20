@@ -18,17 +18,11 @@ This repository contains code files and documentation pertaining to the Moral De
 
    4.3 [Context-Sensitive Thresholding](#cst)
 
-5. [Resource Specifications](#stats)
+5. [Repository Details](deets)  
 
-6. [Repository Details](deets)  
+6. [Setting Up](#setup)
 
-7. [Setting Up](#setup)
-
-8. [Tutorial](#tut)
-
-9. [_A Cautionary Tale!_](#beware)
-
-10. [Resource Maintenance](#maintenance)
+7. [Resource Maintenance](#maintenance)
 
 ---
 
@@ -88,14 +82,20 @@ Results from Llama-3 were validated using Gemma LLM with additional feedback. Th
 <a name="desc"></a>
 # Dataset Description - MDD
 
-By conforming to the normative definition of morality, we adopt the normative definition of ethics as well when embedding morality in AI. This involves <b>consequentialism, deontology, and virtue ethics<\b>. Each of these corresponds to certain real-world parameters: the characteristics of consequences, the moral intentions of the doer, and the ethical principles upheld and violated by the action. In collaboration with our team of ethicists, we have identified and verified these parameters that would, in addition to meta parameters such as action, agents, domain act as the key features.
+By conforming to the normative definition of morality, we adopt the normative definition of ethics as well when embedding morality in AI. This involves <b>consequentialism, deontology, and virtue ethics</b>. Each of these corresponds to certain real-world parameters: the characteristics of consequences, the moral intentions of the doer, and the ethical principles upheld and violated by the action. In collaboration with our team of ethicists, we have identified and verified these parameters that would, in addition to meta parameters such as action, agents, domain act as the key features.
 
 ![alt text](https://github.com/kracr/moral-decision-dataset/blob/1ecfca4e1f6d8fc50b0f3c9987b7750d659e2a56/images/key%20features%20of%20the%20dataset%20mdd.png)
 
 <a name="esa"></a>
 # Ethics Scoring Algorithm
 
-The Ethics Scoring Algorithm (ESA) is a metric that allows one to discretize key features associated with a real-world scenario and determine through a weighted sum the ethics score of the active agent's action. It considers all three normative schools of thought - consequentialism, deontology, and virtue ethics. Based on the preference of the user and the applied ethics domain provided, we can <i>favor<\i> a particular school of thought over others.
+The Ethics Scoring Algorithm (ESA) is a metric that allows one to discretize key features associated with a real-world scenario and determine through a weighted sum the ethics score of the active agent's action. It considers all three normative schools of thought - consequentialism, deontology, and virtue ethics. Based on the preference of the user and the applied ethics domain provided, we can <i>favor</i> a particular school of thought over others.
+
+<a name="deets"></a>
+# Repository Details
+
+This repository consists of three main folders which contain the entirety of the code used to develop this project. It is subdivided into three folders: MDD, MDKG, and evaluator. The MDD folder consists of code files that were used in the development of the moral decision dataset. It also consists of a sampler dataset called MDD_100.csv. In addition to this, this folder consists of all the subreddits that were used, the raw files, and the python code files. MDKG consists of the turtle format file mdkg.ttl, which contains the YARRRML mappings from relational features of the MDD dataset, to the knowledge graph MDKG. A sampler of some SPARQL queries has also been provided, which may be run on the MDKG file to check for consistency. Finally, the evaluator files consist of tests and experiments that were done on the datasets and LLMs to check for optimal running conditions of the specialized prompt.
+
 
 <a name="setup"></a>
 # Setup Instructions
@@ -136,5 +136,7 @@ python augmentation.py
 -Evaluated Data: evaluated_data.json
 -Augmented Cases: augmented_cases.json
 
+<a name="maintenance"></a>
+# Resource Maintenance
 
-
+This four-fold resource repository (MDD, MDKG, ESA, CST) is to be maintained by the authors of the paper as part of their affiliation to the KRaCR Lab, where this research was conducted. The maintenance involves the augmentation of the dataset and betterment of the algorithmic benchmark through testing and experimentation with newer LLM models and features. We also aim to expand the applied ethics domains on which the ESA+CST is implemented, which as of now spans 17 domains. Finally, we hope that our research efficiently makes use of LLMs to further computational machine ethics learning.
