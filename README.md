@@ -131,3 +131,7 @@ python augmentation.py
 
 By conforming to the normative definition of morality, we adopt the normative definition of ethics as well when embedding morality in AI. This involves <b>consequentialism, deontology, and virtue ethics<\b>. Each of these corresponds to certain real-world parameters: the characteristics of consequences, the moral intentions of the doer, and the ethical principles upheld and violated by the action. In collaboration with our team of ethicists, we have identified and verified these parameters that would, in addition to meta parameters such as action, agents, domain act as the key features.
 
+![alt_text](images/key features of the dataset mdd.png)
+
+
+
