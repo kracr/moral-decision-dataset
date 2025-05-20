@@ -35,7 +35,7 @@ This repository contains code files and documentation pertaining to the Moral De
 11. [Resource Maintenance](#maintenance)
 
 <a name="intro"></a>
-#Introduction
+# Introduction
 The ubiquity of autonomous systems in critical decision-making capacities with significant impacts on society and its functioning makes it imperative to provide them with moral cognitive abilities. To facilitate this effort, we have curated a **Moral Decision Dataset (MDD)** that captures everyday scenarios where a question for morality is raised, along with parameters that aid its moral decision, and the decision itself. MDD is created using an LLM-aided methodology using seed data from online sources, which are then preprocessed, extracted, summarized, and augmented using state-of-the-art LLMs. This paper also provides a brief overview of how language models may be used to curate and develop datasets from sparse and highly abstract data. To demonstrate the validity and robustness of the dataset, we also present an **Ethics Scoring Algorithm (ESA)** that reuses the parameters defined in the dataset to calculate ethical scores for isolated actions. Furthermore, the ESA introduces the novel concept of **context-sensitive thresholding** to discretize grey areas in an effort to resolve ethical dilemmas. This work aims to facilitate moral reasoning in AI systems that are deployed in various sections of society through a clearly outlined methodology, modular development, and generalized applicability. 
 
 This project makes the following contributions:
@@ -46,7 +46,7 @@ This project makes the following contributions:
 5. A method to quantify case-specific grey areas using context-sensitive thresholding.
 
 <a name="method"></a>
-#Methodology
+# Methodology
 
 1. Domain Understanding
 The project started with extensive research, including:
