@@ -3,7 +3,7 @@
 ## Overview
 This repository contains code files and documentation pertaining to the Moral Decision Dataset (MDD). The MDD describes real-world cases, associated parameters, and case-based moral decisions. To enhance the usability of this resource, this overview provides additional information on how the dataset was created and a tutorial based on using the dataset for moral decision determination tasks.
 
-#Table of Contents:
+# Table of Contents:
 1. [Introduction](#intro)
    
 2. [Methodology](#method)
@@ -126,5 +126,8 @@ python augmentation.py
 -Evaluated Data: evaluated_data.json
 -Augmented Cases: augmented_cases.json
 
+<a name="desc"></a>
+# Dataset Description - MDD
 
+By conforming to the normative definition of morality, we adopt the normative definition of ethics as well when embedding morality in AI. This involves <b>consequentialism, deontology, and virtue ethics<\b>. Each of these corresponds to certain real-world parameters: the characteristics of consequences, the moral intentions of the doer, and the ethical principles upheld and violated by the action. In collaboration with our team of ethicists, we have identified and verified these parameters that would, in addition to meta parameters such as action, agents, domain act as the key features.
 
