@@ -1,0 +1,34 @@
+On a scale of 1-5 (where 1 is lowest and 5 is highest), how would you rate your expertise in the study of ethics?	How would you rate your expertise in the study of philosophy and related subjects?	"
+How would you rate your understanding on LLMs and how they work?"	"
+How would you rate your confidence in the answers given by an LLM for objective-type questions?"	"
+How would you rate your confidence in the answers given by an LLM for subjective-type questions?"	"The LLM provided us with the following summary based on our given prompt (max 50 words): ""Sammy and his twin daughters moved in after his divorce, but they repeatedly took Zoey’s belongings without permission. After Sloane ruined Zoey’s expensive makeup, her father dismissed concerns. The user installed a lock, angering Sammy and his wife. Tensions rose, leading to silent treatment and conflict within the household.""
+
+Rate the summary on a scale of 1 to 5."	"The LLM inferred and extracted the following main action (max 5 words) from the above case: ""Installed lock on Zoey’s door""
+
+Rate this response on a scale of 1 to 5."	"The LLM inferred and extracted the following area of applied ethics (max 5 words) from the above case: ""Personal privacy and property""
+
+Rate this response on a scale of 1 to 5."	"The LLM inferred and extracted the following Active Agent (max 5 words) from the above case: ""Father (narrator)""
+
+Rate this response on a scale of 1 to 5."	"The LLM inferred and extracted the following Passive Agent (max 5 words) from the above case: ""Zoey, Sammy’s daughters""
+
+Rate this response on a scale of 1 to 5."	"The LLM inferred and extracted the following consequence (max 5 words) from the above case: ""Family conflict and silent treatment""
+
+Rate this response on a scale of 1 to 5."	"The LLM inferred and extracted the following severity of the consequence from the above case: ""Moderate Severity"". (From categories mild, moderate, significant).
+
+Rate this response on a scale of 1 to 5."	"The LLM inferred and extracted the following Utility of Consequence from the above case: ""Good"". (From categories good, bad, grey).
+
+Rate this response on a scale of 1 to 5."	"The LLM inferred and extracted the following Duration of Consequence from the above case: ""Short-term"" (From categories short-term and long-term).
+
+Rate this response on a scale of 1 to 5."	"The LLM inferred and extracted the following Moral intention of the active agent from the above case: ""Good"" (From categories good, bad, grey).
+
+Rate this response on a scale of 1 to 5."	"The LLM inferred and extracted the following ethical principles upheld from the above case: ""Privacy, autonomy, fairness"".
+
+Rate this response on a scale of 1 to 5."	"The LLM inferred and extracted the following ethical principles violated from the above case: ""Beneficence"".
+
+Rate this response on a scale of 1 to 5."	"The LLM inferred and extracted the following moral decision from the above case: ""Morally right"".
+
+Rate this response on a scale of 1 to 5."
+
+How would you now rate your confidence in the answers given by an LLM for objective-type questions?	
+How would you now rate your confidence in the answers given by an LLM for subjective-type questions?	
+Feel free to share your comments on LLMs, Moral AI systems, AI ethics in general, and about this survey here.
