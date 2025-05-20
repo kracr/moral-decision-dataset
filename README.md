@@ -1,7 +1,7 @@
 # moral-decision-dataset
 
 ## Overview
-This repository contains code files and documentation pertaining to the Moral Decision Dataset (MDD). The MDD describes real-world cases, associated parameters, and case-based moral decisions. To enhance the usability of this resource, this overview provides additional information on how the dataset was created and a tutorial based on using the dataset for moral decision determination tasks.
+This repository contains code files and documentation pertaining to the Moral Decision Dataset (MDD). The MDD describes real-world cases, associated parameters, and case-based moral decisions. To enhance the usability of this resource, this overview provides additional information on how the dataset was created and a tutorial to set up and reproduce our results. For more detail on the resource, please see our published paper.
 
 # Table of Contents:
 1. [Introduction](#intro)
@@ -11,12 +11,6 @@ This repository contains code files and documentation pertaining to the Moral De
 3. [Dataset Description - MDD](#desc)
 
 4. [Ethics Scoring Algorithm - ESA](#esa)
-
-   4.1 [Modules](#mods)
-
-   4.2 [Moral Judgement](#mj)
-
-   4.3 [Context-Sensitive Thresholding](#cst)
 
 5. [Repository Details](deets)  
 
