@@ -1,0 +1,39 @@
+I need to build a sample dataset. I will give you a case from the AITA subreddit and you need to infer and extract certain features (if textual, not more than 3 words, else if numeric, single signed float value between -1 to +1) in a csv format alongside a summarized version of each case (Case summary, not more than 50 words). The features are as follows:
+
+{Case summary, Action, Domain, Active Agent, Passive Agent, Consequence, Severity of Consequence, Utility of Consequence, Duration of Consequence, Moral Intention of Active Agent, Ethical Principles Upheld or Violated, Moral Decision}
+
+Of these features, you must provide a single numerical value (score) in an adjacent column for Severity of Consequence, Utility of Consequence, Duration of Consequence, Moral Intention of Active Agent, and Ethical Principles Upheld or Violated.  
+
+These are defined as follows:
+
+- Utility of Consequence Score: between -1 to +1 where -1 is extremely bad utility and +1 is extremely good utility.
+- Severity of Consequence Score: between -1 to +1 where -1 extremely significant bad consequence and +1 is extremely significant good consequence. There extremities refer to more significant severity. Note that the sign of this score will align with the Utility of Consequence feature (if utility is negative then severity will be negative).
+- Duration of Consequence Score: -1 to +1 where -1 extremely bad long-term consequence and +1 is extremely good long-term consequence. There extremities refer to longer duration. Note that the sign of this score will align with the Utility of Consequence feature (if utility is negative then duration will be negative).
+- Moral Intention: -1 to +1 where -1 is bad intention and +1 is good intention. This is unrelated to consequence utility.
+- Ethical Principles: an average of all principles that are either upheld or violated by the consequence. The score of each principle would be between -1 to +1 where -1 represents complete violation and +1 represents complete upholding. An average score for each ethical principle must be provided. 
+
+Regarding the domain, it should be assigned one of the following list: 
+Bioethics
+Medical Ethics
+Research Ethics
+Animal Ethics
+Corporate Ethics
+Environmental Ethics
+AI & Data Ethics
+Neuroethics
+Tech & Cyber Ethics
+Legal Ethics
+Media & Journalism Ethics
+Military Ethics
+Political Ethics
+Sports Ethics
+Educational Ethics
+Sexual Ethics
+Religious Ethics
+
+
+A general consideration: When providing the scores for the features, remember that we must value human lives more than material things. Therefore the loss of human life (direct or indirect), is greater than the loss of animal lives. And the preservation of the ecosystem is more important than capital/monetary loss. Remember that you must value integrity over respect over reciprocity over accountability over financial competence. 
+
+Finally, provide a moral decision for each case, i.e, whether the action done by the active agent, was 'morally right', 'morally wrong', or 'morally grey' and give a brief explanation as to why.
+
+Ensure that you keep each case isolated, and that the decision of one case must not influence the decision for another case. Judge each case in an isolated fashion.
