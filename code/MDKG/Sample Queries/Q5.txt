@@ -1,0 +1,7 @@
+PREFIX ex: <http://www.example.org/mddkg#>
+
+SELECT ?case ?activeAgent
+WHERE {
+  #?case ex:activeAgent "OP" .
+  ?case ex:activeAgent "Person".
+}

@@ -1,0 +1,8 @@
+PREFIX ex: <http://www.example.org/mddkg#>
+
+SELECT ?case ?severityScore
+WHERE {
+  ?case ex:severityScore ?severityScore .
+  FILTER(?severityScore < 0 && ?severityScore > -0.5)
+}
+ORDER BY DESC(?severityScore)

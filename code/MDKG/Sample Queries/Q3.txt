@@ -1,0 +1,6 @@
+PREFIX ex: <http://www.example.org/mddkg#>
+
+SELECT ?case ?domain
+WHERE {
+  ?case ex:domain "Legal Ethics" .
+}

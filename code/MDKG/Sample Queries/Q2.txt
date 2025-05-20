@@ -1,0 +1,6 @@
+PREFIX ex: <http://www.example.org/mddkg#>
+
+SELECT ?case ?summary
+WHERE {
+  ?case a ex:EthicalCase; ex:summary ?summary.
+}
